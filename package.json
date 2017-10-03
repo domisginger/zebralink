@@ -1,0 +1,41 @@
+{
+	name: "com.apache.cordova.plugins.zebra",
+	version: "0.0.1",
+	description: "Cordova plugin find and print ZPL.",
+	cordova: {
+		id: "com.apache.cordova.plugins.zebra",
+		platforms: [		
+			"android"
+		]
+	},
+	repository: {
+		type: "git",
+		url: "git+https://github.com/tblanchard/zebralink.git"
+	},
+	keywords: [
+		"cordova",
+		"print",
+		"printer",
+		"zebra",
+		"ZPL",
+		"ecosystem:cordova",
+		"cordova-ios",
+		"cordova-android",
+		"ios",
+		"android"
+	],
+	engines: [
+		{
+			name: "cordova-android",
+			version: ">=4"
+		}
+	],
+	dependencies: {		
+	},
+	author: "TBlanchard",
+	license: "MIT",
+	bugs: {
+		url: "https://github.com/tblanchard/zebralink/issues"
+	},
+	homepage: "https://github.com/tblanchard/zebralink#readme"
+}
